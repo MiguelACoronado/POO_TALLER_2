@@ -10,5 +10,11 @@ public class Prueba {
         guacamayo.registrarAnimal();//invocar un metodo
 
         guacamayo.mostrarAnimal();
+
+        int duplicado=guacamayo.duplicarEdad();
+
+        System.out.println("El numero duplicado del animal es: " + duplicado);
     }
+
+     
 }

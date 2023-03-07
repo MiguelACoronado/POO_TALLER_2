@@ -26,4 +26,11 @@ public class Animal {
 
         System.out.println("El nombre del animal ingresado es " + nombre + " y tiene " + edad + " años");
     }
+
+    // metodo con retorno
+
+    public int duplicarEdad(){
+        int duplicado = edad * 2;
+        return duplicado;
+    }
 }
