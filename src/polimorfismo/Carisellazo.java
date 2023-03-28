@@ -25,9 +25,15 @@ Scanner lectura = new Scanner(System.in);
     }
 
     @Override
-    public void finalizar() {
+   public void finalizar() {
         if(lanzamiento==1 && eleccion ==1){
             System.out.println(nombre + " ha salido cara, usted selecciono cara, usted gana");
+        }else if(lanzamiento == 1 && eleccion == 2){
+            System.out.println(nombre + " ha salido cara, usted selecciono sello, usted pierde");
+        }else if(lanzamiento == 2 && eleccion == 2){
+            System.out.println(nombre + " ha salido sello, usted selecciono sello, usted gana");
+        }else if(lanzamiento == 2 && eleccion == 1){
+            System.out.println(nombre + " ha salido sello, usted selecciono cara, usted pierde");
         }
     }
     
